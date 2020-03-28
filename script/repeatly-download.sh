@@ -1,0 +1,1 @@
+for i in {1..10}; do curl webserver/logs.zip -o $(date +'%Y.%m.%d.%H.%M.%s'.zip); sleep 61; done
